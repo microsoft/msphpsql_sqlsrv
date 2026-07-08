@@ -1,0 +1,35 @@
+{
+    "name": "microsoft/sqlsrv",
+    "description": "Microsoft Drivers for PHP for SQL Server (SQLSRV) - procedural interface for connecting to Microsoft SQL Server and Azure SQL.",
+    "type": "php-ext",
+    "license": "MIT",
+    "keywords": [
+        "sqlsrv",
+        "sqlserver",
+        "mssql",
+        "azure-sql",
+        "database",
+        "odbc",
+        "microsoft"
+    ],
+    "homepage": "https://github.com/microsoft/msphpsql_sqlsrv",
+    "support": {
+        "issues": "https://github.com/microsoft/msphpsql/issues",
+        "source": "https://github.com/microsoft/msphpsql",
+        "docs": "https://learn.microsoft.com/sql/connect/php/microsoft-php-driver-for-sql-server"
+    },
+    "require": {
+        "php": ">=8.3"
+    },
+    "php-ext": {
+        "extension-name": "sqlsrv",
+        "support-zts": true,
+        "support-nts": true,
+        "download-url-method": [
+            "pre-packaged-source"
+        ],
+        "os-families-exclude": [
+            "windows"
+        ]
+    }
+}

@@ -11,8 +11,12 @@ PIE is the official replacement for PECL, which is now deprecated.
 pie install microsoft/sqlsrv
 ```
 
-> PIE installation is currently supported on **Linux and macOS**. On Windows, use
-> the pre-built DLLs shipped with the [main driver releases](https://github.com/microsoft/msphpsql/releases).
+> **Windows support (5.13.3+):** `pie install microsoft/sqlsrv` also works on
+> Windows. PIE automatically downloads the matching pre-built DLL for your PHP
+> version, thread-safety (TS/NTS), and architecture from this repository's GitHub
+> release, so no manual DLL setup is required. For 5.13.2 and earlier, use the
+> pre-built DLLs shipped with the
+> [main driver releases](https://github.com/microsoft/msphpsql/releases) instead.
 
 ## Names at a glance
 

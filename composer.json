@@ -27,9 +27,6 @@
         "support-nts": true,
         "download-url-method": [
             "pre-packaged-source"
-        ],
-        "os-families-exclude": [
-            "windows"
         ]
     }
 }

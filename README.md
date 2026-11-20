@@ -29,7 +29,8 @@ pie install microsoft/sqlsrv
 
 ## Requirements
 
-- PHP 8.3 or newer
+- PHP 8.4 or newer for driver 5.14.0 and later (earlier releases retain their
+  original PHP requirements)
 - Microsoft ODBC Driver for SQL Server (17 or 18)
 - PIE 1.x (PIE itself requires PHP 8.1+ to run)
 
